@@ -1,23 +1,37 @@
 <html>
-<!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> 
 <head>
-	<title>Allspark :: Home</title>
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+  <title>Allspark - "Celebration of Technology and Innovation"</title>
+  <link rel="icon" href="favicon.ico?v=2" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<canvas class="connectivityBG"></canvas>
-	<canvas class="connectivityBGAfter"></canvas>
+  <canvas class="connectivityBG"></canvas>
+  <canvas class="connectivityBGAfter"></canvas>
     <div class="skipButton"><button onclick="skipAnimation()">Skip&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></div>
-	<div class=" container-fluid hideAB" id="DOM">
-	    <div class="row">
+  <div class=" container-fluid hideAB" id="DOM">
+      <div class="row">
            
 
-	        <div class="col-md-12 contentWrap">
-                <div class="col-md-6 fullPage bar1">
-                <div class="heightHalf introBG rel">
+          <div class="col-md-12 contentWrap">
+                <div class="col-md-6 fullPage bar1 mobFix">
+                <div class="heightHalf introBG rel mobFix">
                 <div class="blockTitle padTop blockTitleFont padTopZero">
                     <img src="images/logo_allspark.png" style="width:200px">
                     <img src="images/logo_sirius.png" style="    width: 181px; position: absolute; right: 15px;">
@@ -45,8 +59,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="heightHalf ContactBG">
-                <div class="blockTitle blockTitleFont padOff">Guests</div>
+                <div class="heightHalf ContactBG mobFix">
+                <div class="blockTitle blockTitleFont padOff" style="cursor: default;">Guests</div>
                 <div class="guests">
                     <ul class="photo-grid">
                         <li><a href="#">
@@ -95,257 +109,316 @@
                 <div class="col-md-6 fullPage ScheduleBG">
                 <div class="blockTitle blockTitleFont posRel sideMenu ">
 
-                    <span class="s1 active a" onclick="goToMenu('1');">Schedule</span>
-                    <span class="s2 a" onclick="goToMenu('2');">Flashback</span>
-                    <span  class="s3 a" onclick="goToMenu('3');">Liveblog</span>
-                    <span class="socioIcons">
-                        <a href="https://fb.com/allsparktx" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/allsparktx" target="_blank"><i class="fa fa-twitter"></i></a>
-                        
-                    </span>
-                </div>
+            <span class="s1 active a" onclick="goToMenu('1');">Schedule</span>
+            <span class="s2 a" onclick="goToMenu('2');">Flashback</span> <span
+              class="s3 a" onclick="goToMenu('3');">Liveblog</span> <span
+              class="socioIcons"> <a href="https://fb.com/allsparktx"
+              target="_blank"><i class="fa fa-facebook"></i></a> <a
+              href="https://twitter.com/allsparktx" target="_blank"><i
+                class="fa fa-twitter"></i></a>
+
+            </span>
+          </div>
+                
                 <div class="hideAB fullhw scrollEnable" id="currContent3">
                      <div class="social-feed-container"></div>
                 </div>
-                <div class="fullhw hideAB scrollEnable" id="currContent2">
-                    <ul class="timeline">
-                      <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">November 2012</p>
-                          <h3>Atech US Tech Xchange</h3>
-                          <h4 class="slogan">Phoenix rising</h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Pheoniz, Arizona, USA</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                            <li>Worklight mobile hackathon</li>
-<li>Potential integration of Mobile into the existing applications.</li>
-<li>Fun at Casino with rock band</li>
-<li>Winner got a 500$ voucher</li>
-<li>Winner got an iphone</li>
-<li>Had a good rock band (employees only) who performed really well during the casino night</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
 
-                      <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">August 2013</p>
-                          <h3>UI Hackathon</h3>
-                          <h4 class="slogan">Design is not how it looks. But of course, if you dig deeper, it's really how it works</h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Office Premises - Chennai,India</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                                <li>Into the world of JQuery , Bootstrap , Backbone , CSS3 , HTML5.</li>
-<li>Responsive Design, Parallax scrolling, Material Design</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
+               <div class="fullhw hideAB scrollEnable" id="currContent2">
+            <ul class="timeline">
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">November 2012</p>
+                  <h3>Atech US Tech Xchange</h3>
+                  <h4 class="slogan">Phoenix rising</h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Pheoniz, Arizona, USA
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>Worklight mobile hackathon</li>
+                    <li>Potential integration of Mobile into the existing
+                      applications.</li>
+                    <li>Fun at Casino with rock band</li>
+                    <li>Winner got a 500$ voucher</li>
+                    <li>Winner got an iphone</li>
+                    <li>Had a good rock band (employees only) who performed
+                      really well during the casino night</li>
+                  </ul>
+                  </p>
 
-                       <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">12th sep 2013</p>
-                          <h3>Ignite</h3>
-                          <h4 class="slogan"></h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Hyatt Regency - Chennai, India</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                              <li>ISIM 6 - Replacing the decade-old identity management system.</li>
-<li>Mobile Testing - Adding value through automation.</li>
-<li>You Build and You Deploy with uBuild and uDeploy !!! </li>
-<li>Mobile Smarter Commerce - E-Commerce Marketing at Fingertips </li>
-<li>16 Going 100 And Beyond.</li>
-<li>Costco Membership - Novice to an Expert Story.</li>
-<li>Smarter Connections - Recommendations Re-Engineered.</li>
-<li>Easy Content Spot .</li>
-<li>Costco &#45; E-Commerce Support &#45; Not an Okie Dokie project (as Maggie says!!!) </li>
-<li>BASF - The Enigma, key Project management challenges and learnings </li>
-<li>Puppeteering on the Cloud with AWS CloudFormation.</li>
-<li>Keyword Driven Testing Using Selenium </li>
-<li>Mobilize your Content - Enabling Web Content Management in Worklight</li>
-<li>Connecting Big data through Big Insights to make Big profits</li>
-<li>Life waves @ Lifeway, A divine direction to follow a non-IBM way. Yes!!! its open source</li>
-<li>A study on Social Rendering in IBM WebSphere Portal 8 </li>
-<li>Walk the talk with a software solution - The Agile way (PepsiCo a case study)</li>
-<li>Changing ""Add To Cart"" to ""Book My Ticket""</li>
-<li>Hotspotting Images (DTNA Core Functionality) </li>
-<li>Automation of Transformation-Validation in Mediation during Application Integration a.k.a Did I map it right ? "</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
+                </div></li>
 
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">August 2013</p>
+                  <h3>UI Hackathon</h3>
+                  <h4 class="slogan">Design is not how it looks. But of
+                    course, if you dig deeper, it's really how it works</h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Office Premises -
+                    Chennai, India
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>Into the world of JQuery , Bootstrap , Backbone ,
+                      CSS3 , HTML5.</li>
+                    <li>Responsive Design, Parallax scrolling, Material
+                      Design</li>
+                  </ul>
+                  </p>
 
-                         <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">February 21, 22, 23  2014</p>
-                          <h3>Codes & Gears</h3>
-                          <h4 class="slogan">Brainstorming the non-existent than settling down with the existent.
-Technology 2020</h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Office Premises - Chennai,India</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                                <li>Participants had to envision the future by giving a possible solution to overcome the limitations of any existing system or design a system of their own which could prove to be better and more feasible. </li>
- <li>Participants were allowed to choose any domain / technology they wished. </li>
- <li>Participants entered into the oblivion for the next 36 hours during which they had to build a working prototype of their idea and a short video explaining the whole concept. </li>
- <li>The ideas were judged on the Completeness of Vision, Alignment of Prototype with Vision and Completeness of Prototype and Quantum of work done during the 36 Hours.</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
+                </div></li>
 
-                    <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">October 6 & 7 2014</p>
-                          <h3>Ignite</h3>
-                          <h4 class="slogan">Inspire, Innovate & Insight</h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Hyatt Regency - Chennai, India</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                                <li>Fast, Offline and Modern Web Apps </li>
-<li>Unexplored Java </li>
-<li>Costco Mobile - Challenges, Solutions & a Success Story !!!</li>
-<li>DeviceArk </li>
-<li>Adding Value to End consumers </li>
-<li>Selfie Slider</li>
-<li>T-Commerce : Leveraging Smart TV and eCommerce</li>
-<li>Mobile Consortium </li>
-<li>Mobile Applications: Native or Hybrid or Native + Hybrid? </li>
-<li>QUICK TIME COMMERCE DEVELOPER</li>
-<li>Dalusia - Let's support Worklight </li>
-<li>"AdapCom - new era of developing in commerce </li>
-<li>Power of Unit Testing in Portlets</li>
-<li>Build Apps in mins - the IBM Bluemix way</li>
-<li>Fake Review Detection in e-Commerce Sites </li>
-<li>People Analytics: Business Opportunities Awaits</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">September 12 - 2013</p>
+                  <h3>Ignite</h3>
+                  <h4 class="slogan"></h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Hyatt Regency - Chennai,
+                    India
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>ISIM 6 - Replacing the decade-old identity management
+                      system.</li>
+                    <li>Mobile Testing - Adding value through automation.</li>
+                    <li>You Build and You Deploy with uBuild and uDeploy !!!
+                    </li>
+                    <li>Mobile Smarter Commerce - E-Commerce Marketing at
+                      Fingertips</li>
+                    <li>16 Going 100 And Beyond.</li>
+                    <li>Costco Membership - Novice to an Expert Story.</li>
+                    <li>Smarter Connections - Recommendations Re-Engineered.</li>
+                    <li>Easy Content Spot .</li>
+                    <li>Costco - E-Commerce Support - Not an Okie Dokie
+                      project (as Maggie says!!!)</li>
+                    <li>BASF - The Enigma, key Project management challenges
+                      and learnings</li>
+                    <li>Puppeteering on the Cloud with AWS CloudFormation.</li>
+                    <li>Keyword Driven Testing Using Selenium</li>
+                    <li>Mobilize your Content - Enabling Web Content
+                      Management in Worklight</li>
+                    <li>Connecting Big data through Big Insights to make Big
+                      profits</li>
+                    <li>Life waves @ Lifeway, A divine direction to follow a
+                      non-IBM way. Yes!!! its open source</li>
+                    <li>A study on Social Rendering in IBM WebSphere Portal 8
+                    </li>
+                    <li>Walk the talk with a software solution - The Agile
+                      way (PepsiCo a case study)</li>
+                    <li>Changing ""Add To Cart"" to ""Book My Ticket""</li>
+                    <li>Hotspotting Images (DTNA Core Functionality)</li>
+                    <li>Automation of Transformation-Validation in Mediation
+                      during Application Integration a.k.a Did I map it right ? "</li>
+                  </ul>
+                  </p>
 
-                 <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">March 19,20,21 2015</p>
-                          <h3>Codes & Gears</h3>
-                          <h4 class="slogan"></h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Office Premises - Chennai,India</h4>
-                          <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-                            <ul class="keyHighlights">
-                         <p>The teams caffeinated themselves to build innovative working prototypes in 72 hours.</p>
-
-<p>The hackathon was targeted to reinforce and exlpore the following </p>
-
-    <li>Innovations for a connected and engaged enterprise.</li>
-    <li>Next Generation Shopping Experience</li>
-    <li>Internet of Things in Enterprises</li>
-    <li>Innovations for eGovernance in India</li>
-    <li>Smarter SDLC</li>
+                </div></li>
 
 
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">February 21,22,23 -
+                    2014</p>
+                  <h3>Codes & Gears</h3>
+                  <h4 class="slogan">Brainstorming the non-existent than
+                    settling down with the existent. Technology 2020</h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Office Premises -
+                    Chennai, India
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>Participants had to envision the future by giving a
+                      possible solution to overcome the limitations of any existing
+                      system or design a system of their own which could prove to
+                      be better and more feasible.</li>
+                    <li>Participants were allowed to choose any domain /
+                      technology they wished.</li>
+                    <li>Participants entered into the oblivion for the next
+                      36 hours during which they had to build a working prototype
+                      of their idea and a short video explaining the whole concept.
+                    </li>
+                    <li>The ideas were judged on the Completeness of Vision,
+                      Alignment of Prototype with Vision and Completeness of
+                      Prototype and Quantum of work done during the 36 Hours.</li>
+                  </ul>
+                  </p>
 
-    <p>Beside the redness of eyes :)  the ideas were evaluated based on the </p>
-    <li>Completeness of the Vision</li>
-    <li>Innovation and Out of the box thinking</li>
-    <li>Quantum of work accomplished during the Hackathon day</li>
-                            </ul>
-                          </p>
-                         
-                        </div>
-                      </li>
+                </div></li>
+
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">October 6 & 7 2014</p>
+                  <h3>Ignite</h3>
+                  <h4 class="slogan">Inspire, Innovate & Insight</h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Hyatt Regency - Chennai,
+                    India
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>Fast, Offline and Modern Web Apps</li>
+                    <li>Unexplored Java</li>
+                    <li>Costco Mobile - Challenges, Solutions & a Success
+                      Story !!!</li>
+                    <li>DeviceArk</li>
+                    <li>Adding Value to End consumers</li>
+                    <li>Selfie Slider</li>
+                    <li>T-Commerce : Leveraging Smart TV and eCommerce</li>
+                    <li>Mobile Consortium</li>
+                    <li>Mobile Applications: Native or Hybrid or Native +
+                      Hybrid?</li>
+                    <li>QUICK TIME COMMERCE DEVELOPER</li>
+                    <li>Dalusia - Let's support Worklight</li>
+                    <li>"AdapCom - new era of developing in commerce</li>
+                    <li>Power of Unit Testing in Portlets</li>
+                    <li>Build Apps in mins - the IBM Bluemix way</li>
+                    <li>Fake Review Detection in e-Commerce Sites</li>
+                    <li>People Analytics: Business Opportunities Awaits</li>
+                  </ul>
+                  </p>
+
+                </div></li>
+
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">March 19,20,21 - 2015</p>
+                  <h3>Codes & Gears</h3>
+                  <h4 class="slogan"></h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Office Premises -
+                    Chennai, India
+                  </h4>
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <p>The teams caffeinated themselves to build innovative
+                      working prototypes in 72 hours.</p>
+
+                    <p>The hackathon was targeted to reinforce and exlpore the
+                      following</p>
+
+                    <li>Innovations for a connected and engaged enterprise.</li>
+                    <li>Next Generation Shopping Experience</li>
+                    <li>Internet of Things in Enterprises</li>
+                    <li>Innovations for eGovernance in India</li>
+                    <li>Smarter SDLC</li>
+
+                    <br>
+
+                    <p>Beside the redness of eyes :) ideas were
+                      evaluated based on the</p>
+                    <li>Completeness of the Vision</li>
+                    <li>Innovation and Out of the box thinking</li>
+                    <li>Quantum of work accomplished during the Hackathon day</li>
+                  </ul>
+                  </p>
+
+                </div></li>
+
+
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">April 2015</p>
+                  <h3>Avnet US Hackathon</h3>
+                  <h4 class="slogan"></h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Austin, US
+                  </h4>
+                  <p class="justify">Bluemix with Watson Hackathon. It was an
+                    event to explore the Cognitive Computing & Cloud developments
+                    in the next frontier of enterprise IT. Mobile Apps were built
+                    using Cognitive Computing system of Watson and were showcased
+                    along with their Marketing Potential. The cloud development
+                    skills were stormed and all the apps were deployed on IBM
+                    Bluemix. IBM's Open Cloud Architecture was drilled, leveraging
+                    Cloud Foundry to enable developers to rapidly build, deploy,
+                    and manage their cloud applications. The event got a worldwide
+                    recognition in Avnet, IBM newsletters and other websites. Cash
+                    prizes were distributed to the winners.</p>
+
+                </div></li>
+
+              <li class="timeline-event"><label
+                class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">November 2015</p>
+                  <h3>AllSpark 2015</h3>
+                  <h4 class="slogan">Celebration Of Technology & Innovation</h4>
+                  <h4>
+                    <i class="fa fa-map-marker"></i>&nbsp;Hilton - Chennai, India
+                  </h4>
+
+
+                  <p>
+                    <strong><i class="fa fa-star-o"></i>&nbsp;Key
+                      Highlights:</strong><br>
+                  <ul class="keyHighlights">
+                    <li>AllSpark is for developers - the creative nerds who
+                      are building what's next.</li>
+                    <li>AllSpark is for QA folks - the peforated membranes
+                      who only allow faultless code through them.</li>
+                    <li>AllSpark is for the Ops - the wheels on whom the
+                      enterprise rolls.</li>
+
+                    <li>AllSpark is for all the philanthropists, who want to
+                      make the world a better place</li>
+                  </ul>
+                  </p>
+
+                </div></li>
+            </ul>
+
+          </div>
+
+
+             <div class="calen" id="currContent1">
+            <ul class="main">
+              <li class="date">
+                <h3>Nov 20</h3>
+                <p>Schedule of Events</p>
+              </li>
+              <li class="events">
+                <ul class="events-detail">
+
+                  <li><a href="#"> <span class="event-time">08:00
+                        to 08:45am</span> <span class="event-name">Breakfast</span> <!-- <br />
+                    <span class="event-location"></span> -->
+                  </a></li>
+
+                  <li><a href="#"> <span class="event-time">09:00
+                        to 09:45am</span> <span class="event-name">Keynote Address</span>
                       
-                     
-                      <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">April 2015</p>
-                          <h3>Avnet US Hackathon</h3>
-                          <h4 class="slogan"></h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Austin, US</h4>
-                          <p class="justify">Bluemix with Watson Hackathon.
+                  </a></li>
 
-It was an event to explore the Cognitive Computing & Cloud developments in the next frontier of enterprise IT.
+                  <li><a data-toggle="collapse" href="#jointSession1"> <span
+                      class="event-time">10:00 to 10:45am</span> <span
+                      class="event-name">Do Adobe Be Adobe</span> <br /> <span
+                      class="event-location"></span>
 
-Mobile Apps were built using Cognitive Computing system of Watson and were showcased along with their Marketing Potential. 
-The cloud development skills were stormed and all the apps were deployed on IBM Bluemix.
 
-IBM's Open Cloud Architecture was drilled, leveraging Cloud Foundry to enable developers to rapidly build, deploy, and manage their cloud applications.
-
-The event got a worldwide recognition in Avnet, IBM newsletters and other websites.
-
-Cash prizes were distributed to the winners.
-
-                          </p>
-                         
-                        </div>
-                      </li>
-
-            <li class="timeline-event">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                          <p class="timeline-event-thumbnail">November 2015</p>
-                          <h3>AllSpark 2015</h3>
-                          <h4 class="slogan">Celebration Of Technology & Innovation</h4>
-                          <h4><i class="fa fa-map-marker"></i>&nbsp;Hilton - Chennai, India</h4>
-                         
-
-                             <p><strong><i class="fa fa-star-o"></i>&nbsp;Key Highlights:</strong><br>
-<ul class="keyHighlights"><li>AllSpark is for developers - the creative nerds who are building what's next.</li>
-<li>AllSpark is for QA folks - the peforated membranes who only allow faultless code through them.</li>
-<li>AllSpark is for the Ops - the wheels on whom the enterprise rolls.</li>
-</ul>
-                            </p>
-                         
-                        </div>
-                      </li>
-                    </ul>  
-                  
-                </div>
-                <div class="calen" id="currContent1">
-                    <ul class="main">
-                    <li class="date">
-                    <h3>Nov 20</h3>
-                    <p>Schedule of Events</p>
-                    </li>
-                    <li class= "events">
-                    <ul class="events-detail">
-
-                    <li>
-                    <a href="#">
-                    <span class="event-time">08:00 to 08:45am</span>
-                    <span class="event-name">Breakfast</span>
-                    <br />
-                    <span class="event-location"></span>
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#">
-                    <span class="event-time">09:00 to 09:45am</span>
-                    <span class="event-name">Keynote Address</span>
-                    <br />
-<!--                     <span class="event-location">Shan R, Rick B, Stephen M</span> -->
-                    </a>
-                    </li>
-
-                    <li>
-                    <a data-toggle="collapse" href="#jointSession1">
-                    <span class="event-time">10:00 to 10:45am</span>
-                    <span class="event-name">DO ADOBE BE ADOBE </span>
-                    <br />
-                    <span class="event-location"></span>
-                    </a>
+                  </a> 
 
                    <div id="jointSession1" class="panel-collapse collapse">
                      <div class="panel-body">
@@ -354,292 +427,269 @@ Cash prizes were distributed to the winners.
                      </div>
                     </div>
 
-                    </li>
+                  </li>
 
-                    <li>
-                    <a href="#">
-                    <span class="event-time">10:45 to 11:00am</span>
-                    <span class="event-name">Break</span>
-                    </a>
-                    </li>
+                  <li><a href="#"> <span class="event-time">10:45
+                        to 11:00am</span> <span class="event-name">Break</span>
+                  </a></li>
 
-                 
-                   <li>
-                    <a data-toggle="collapse" href="#combinedSession1">
-                    <span class="event-time">11:00 to 11:30am</span>
-                    <span class="event-name">OneSource- Originate, Organize & Automate<p class="room">(Room A)</p></span>
+
+                  <li>
+                    <a data-toggle="collapse" href="#combinedSession1"> <span class="event-time">11:00
+                        to 11:30am</span> 
+                        <span class="event-name">OneSource-Originate, Organize & Automate
+                        <p class="room">(Room A)</p>
+                    </span>
                     </a>
                     <a data-toggle="collapse" href="#combinedSession2">
-                    <span class="event-name padL">Traversing Uncharted MobileFirst <p class="room">(Room B)</p></span>
-                    <!-- <span class="event-location">Topic: TBD</span> -->
-                    </a>
-	                     <div id="combinedSession1" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p>OneSource; An IP developed at Sirius Computer Solutions,India is a Keyword driven &amp; a tool-agnostic automation system.</p>
-	                     </div>
-	                    </div>
-	                    <div id="combinedSession2" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p>	Plunge into the mobile ocean & disclose the new powerful features on IBM MobileFirst Platform Foundation 7.1
-	                            </p>
-	                     </div>
-	                    </div>
-                    </li>
+                   <span class="event-time adjusPadding">09:00 to
+                        09:45am</span> <span class="event-name padL">Traversing Uncharted MobileFirst 
+                        <p class="room">(Room B)</p>
+                    </span> <!-- <span class="event-location">Topic: TBD</span> -->
+                  </a>
 
-                    <li>
-                    <a data-toggle="collapse" href="#combinedSession3">
-                    <span class="event-time">11:45 to 12:15am</span>
-                    <span class="event-name">Visual Search - WYSIWYB <p class="room">(Room A)</p></span>
-                    </a>
-                    <a data-toggle="collapse" href="#combinedSession4">
-                    <span class="event-name padL">The Testing Jam &#45; BI + IOT <p class="room">(Room B)</p></span>
-                    <!-- <span class="event-location">Topic: TBD</span> -->
-                    </a>
-	                     <div id="combinedSession3" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p>Looking into a product sometimes sparks an intense desire to buy & it would be a wonderful monetizing opportunity to instantly transform the want into an E-Commerce order. The existing search methods are taxing because of the huge semantic gap in using keywords. Welcome to the world where WYSIWYB (What you see is what you buy) is implemented using our custom visual search module 
-	                            and it is also integrated with IBM WCS via REST API.</p>
-	                     </div>
-	                    </div>
-	                    <div id="combinedSession4" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p>Test the Intelligent and Test the Connected. Let's throw some light on how testing principles are applied to test and ensure the quality of  BI & IOT applications. 
-	                            </p>
-	                     </div>
-	                    </div>
-                    </li>
+                   <div id="combinedSession1" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p>OneSource; An IP developed at Sirius Computer Solutions,India is a Keyword driven &amp; a tool-agnostic automation system.</p>
+                       </div>
+                      </div>
+                      <div id="combinedSession2" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> Plunge into the mobile ocean & disclose the new powerful features on IBM MobileFirst Platform Foundation 7.1
+                              </p>
+                       </div>
+                      </div>
 
-                    <li>
-                    <a href="#">
-                    <span class="event-time">12:15 to 01:30pm</span>
-                    <span class="event-name">Lunch</span>
-                    </a>
-                    </li>
+                </li>
 
-                 
-                    <li>
-                    <a data-toggle="collapse" href="#jointSession2">
-                    <span class="event-time">01:30 to 02:15pm</span>
-                    <span class="event-name">Shop Together - IBM Commerce Co-Shopping</span>
-                    <br />
-                    <!-- <span class="event-location">Topic: TBD</span> -->
-                    </a>
-                    <div id="jointSession2" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> Miss those days when you had gone shopping with your mom? You had that one friend who always suggested the best outfit for you, and now you send her a bunch of product page links and wait for her decision? Having a hard time group shopping online ?
-									Well not anymore! Say Hello to the "Shopping Together"! This virtual co-shopping experience lets you shop online with your friends.</p>
-	                     </div>
-	                 </div>
-                    </li>
+                  <li><a data-toggle="collapse" href="#combinedSession3">
+                    <span class="event-time">11:45
+                        to 12:15am</span> <span class="event-name">Visual Search - WYSIWYB 
+                        <p class="room">(Room A)</p>
+                    </span> </a>
+                    <a data-toggle="collapse" href="#combinedSession4"><span class="event-time adjusPadding">09:00 to
+                        09:45am</span> <span class="event-name padL">The Testing Jam &#45; BI + IOT 
+                        <p class="room">(Room B)</p>
+                    </span> <!-- <span class="event-location">Topic: TBD</span> -->
+                  </a>
+                  <div id="combinedSession3" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p>Looking into a product sometimes sparks an intense desire to buy & it would be a wonderful monetizing opportunity to instantly transform the want into an E-Commerce order. The existing search methods are taxing because of the huge semantic gap in using keywords. Welcome to the world where WYSIWYB (What you see is what you buy) is implemented using our custom visual search module 
+                              and it is also integrated with IBM WCS via REST API.</p>
+                       </div>
+                      </div>
+                      <div id="combinedSession4" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p>Test the Intelligent and Test the Connected. Let's throw some light on how testing principles are applied to test and ensure the quality of  BI & IOT applications. 
+                              </p>
+                       </div>
+                      </div>
 
+                </li>
 
-                     <li>
-                    <a data-toggle="collapse" href="#combinedSession5">
-                    <span class="event-time">02:30 to 03:00pm</span>
-                    <span class="event-name">Spearheading into Splunk <p class="room">(Room A)</p></span>
-                    </a>
-                    <a data-toggle="collapse" href="#combinedSession6">
-                    <span class="event-name padL">Mobile Performance Testing <p class="room">(Room B)</p></span>
-                    <!-- <span class="event-location">Topic: TBD</span> -->
-                    </a>
-                     <div id="combinedSession5" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> Got an innovative idea and want to build an amazing Splunk App but do not know where to start? Join us for a lap around the new Splunk Enterprise product. We will provide end-to-end guidance on how to design, develop and deploy comprehensive Splunk solutions.
-									We are showcasing an End-to-End Business Log Monitoring Application with Splunk.  We will also give you a glimpse of what has to be done to monitor your log files from one end of your environment to the other.
-	                            </p>
-	                     </div>
-	                    </div>
-	                    <div id="combinedSession6" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> 
-	                                "A pinch of probability is worth a pound of perhaps." - James Thurber
-	                            	It's no longer optional; it's now mandatory for businesses to ensure the performance of applications in their mobile environments.
+                  <li><a href="#"> <span class="event-time">12:15
+                        to 01:30pm</span> <span class="event-name">Lunch</span>
+                  </a></li>
 
-									Performance testing with the right solution ensures
-									
-									1. Your SLAs are met even when huge volumes of users are accessing your servers at the same time.
-									2. To retain the existing users and to match the increase of smartphone users.
-									3. Your device does not get into an unresponsive mode at any-time.	                            	
-	                            </p>
-	                     </div>
-	                    </div>
-                    </li>
+				  
+                  <li><a data-toggle="collapse" href="#jointSession2"> 
+                  <span class="event-time">01:30
+                        to 02:15pm</span> <span class="event-name">Shop Together - IBM Commerce Co-Shopping</span> <br /> <!-- <span class="event-location">Topic: TBD</span> -->
+                  </a>
 
-                    <li>
-                    <a data-toggle="collapse" href="#combinedSession7">
-                    <span class="event-time">03:15 to 03:45pm</span>
-                    <span class="event-name">Mobile Jam <p class="room">(Room A)</p></span>
-                   			 
-                    </a>
-                    <a data-toggle="collapse" href="#combinedSession8">
-                    <span class="event-name padL">Next Gen Web Development Paradigms <p class="room">(Room B)</p></span>
-                    <!-- <span class="event-location">Topic: TBD</span> -->
-                    </a>
-                    
-                    <div id="combinedSession7" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> 
-	                            Come and witness the glimpse of different mobile technologies imperative in a technologically cluttered enterprise.
-	                            </p>
-	                     </div>
-	                    </div>
-	                    <div id="combinedSession8" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> 
-	                              This presentation will be a revealing and informative talk on one of the revolutionary API's to come out in recent times called the 'ServiceWorker'. Yep you heard it right..'The Service Worker'. Dubbed the next big thing to happen in the web after the 'link', Service Workers enable you to build Rich offline experiences, perform periodic background syncs, send push notifications - functionalities that would normally require a native application. Service workers provide the technical foundation for these. 
-						          A service worker is a script that is run by your browser in the background, separate from a web page, opening the door to features which don't need a web page or user interaction.  	                            	
-	                            </p>
-	                     </div>
-	                    </div>
-                    </li>
+                  <div id="jointSession2" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> Miss those days when you had gone shopping with your mom? You had that one friend who always suggested the best outfit for you, and now you send her a bunch of product page links and wait for her decision? Having a hard time group shopping online ?
+                                  Well not anymore! Say Hello to the "Shopping Together"! This virtual co-shopping experience lets you shop online with your friends.</p>
+                       </div>
+                   </div>
 
-                    <li>
-                    <a href="#">
-                    <span class="event-time">03:45 to 04:15pm</span>
-                    <span class="event-name">Break</span>
-                    </a>
-                    </li>
+                </li>
 
 
-                    <li>
-                    <a data-toggle="collapse" href="#combinedSession9">
-                    <span class="event-time">04:15 to 04:45pm</span>
-                    <span class="event-name">IBM Commerce&#45;Development Accelerators <p class="room">(Room A)</p></span>
-                    </a>
-                    <a data-toggle="collapse" href="#combinedSession10">
-                     <span class="event-name padL">RunDeck - A Walkthrough<p class="room">(Room B)</p></span>
-                     <!-- 
+                  <li><a data-toggle="collapse" href="#combinedSession5"> <span class="event-time">02:30
+                        to 03:00pm</span> <span class="event-name">Spearheading into Splunk 
+                        <p class="room">(Room A)</p>
+                    </span>  </a>
+                    <a data-toggle="collapse" href="#combinedSession6"><span class="event-time adjusPadding">09:00 to
+                        09:45am</span> <span class="event-name padL">Mobile
+                        Performance Testing
+                        <p class="room">(Room B)</p>
+                    </span> <!-- <span class="event-location">Topic: TBD</span> -->
+                  </a>
+
+<div id="combinedSession5" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> Got an innovative idea and want to build an amazing Splunk App but do not know where to start? Join us for a lap around the new Splunk Enterprise product. We will provide end-to-end guidance on how to design, develop and deploy comprehensive Splunk solutions.
+                  We are showcasing an End-to-End Business Log Monitoring Application with Splunk.  We will also give you a glimpse of what has to be done to monitor your log files from one end of your environment to the other.
+                              </p>
+                       </div>
+                      </div>
+                      <div id="combinedSession6" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> 
+                                  "A pinch of probability is worth a pound of perhaps." - James Thurber
+                                It's no longer optional; it's now mandatory for businesses to ensure the performance of applications in their mobile environments.
+
+                  Performance testing with the right solution ensures
+                  
+                  1. Your SLAs are met even when huge volumes of users are accessing your servers at the same time.
+                  2. To retain the existing users and to match the increase of smartphone users.
+                  3. Your device does not get into an unresponsive mode at any-time.                                
+                              </p>
+                       </div>
+                      </div>
+                </li>
+
+                  <li>
+                    <a data-toggle="collapse" href="#combinedSession7"> <span class="event-time">03:15
+                        to 03:45pm</span> <span class="event-name">Mobile Jam
+                        <p class="room">(Room A)</p>
+                    </span> </a>
+                    <a data-toggle="collapse" href="#combinedSession8"><span class="event-time adjusPadding">09:00 to
+                        09:45am</span> <span class="event-name padL">Next Gen Web
+                        Development Paradigms
+                        <p class="room">(Room B)</p>
+                    </span> <!-- <span class="event-location">Topic: TBD</span> -->
+                  </a>
+
+                  <div id="combinedSession7" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> 
+                              Come and witness the glimpse of different mobile technologies imperative in a technologically cluttered enterprise.
+                              </p>
+                       </div>
+                      </div>
+                      <div id="combinedSession8" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> 
+                                This presentation will be a revealing and informative talk on one of the revolutionary API's to come out in recent times called the 'ServiceWorker'. Yep you heard it right..'The Service Worker'. Dubbed the next big thing to happen in the web after the 'link', Service Workers enable you to build Rich offline experiences, perform periodic background syncs, send push notifications - functionalities that would normally require a native application. Service workers provide the technical foundation for these. 
+                      A service worker is a script that is run by your browser in the background, separate from a web page, opening the door to features which don't need a web page or user interaction.                                 
+                              </p>
+                       </div>
+                      </div>
+
+                </li>
+
+                  <li><a href="#"> <span class="event-time">03:45
+                        to 04:15pm</span> <span class="event-name">Break</span>
+                  </a></li>
+
+
+                  <li><a data-toggle="collapse" href="#combinedSession9">
+                    <span class="event-time">04:15
+                        to 04:45pm</span> <span class="event-name">IBM CommerceDevelopment Accelerators
+                        <p class="room">(Room A)</p>
+                    </span>  </a>
+                    <a data-toggle="collapse" href="#combinedSession10"><span class="event-time adjusPadding">09:00 to
+                        09:45am</span> <span class="event-name padL">RunDeck
+                        <p class="room">(Room B)</p>
+                    </span> <!-- 
                     <span class="event-location">Topic: TBD</span> -->
-                    </a>
-                        <div id="combinedSession9" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> 
-	                              "The reasonable man adapts himself doing mundane tasks and the unreasonable one delegates it." Come and join us to checkout our elegant tweaks in IBM WCS that would automate -<br>
-											> Create  URL views in Struts
-											> Create Commands that do Business Logic
-											> Create XML Policies - Grand/Revoke User Privileges
-											> Create DB Queries for Mapping Commands
-	                            </p>
-	                     </div>
-	                    </div>
-	                    <div id="combinedSession10" class="panel-collapse collapse">
-	                     <div class="panel-body">
-	                            <p> 
-	                              Enjoy being the Hero. You've safely given Dev and QA teams access to self-service operations tasks (deployments, restarts, data management, etc). You've made collaboration with your Operations colleagues easier. You've improved everyone's visibility into Operations activity. Now you can spend less of your time fielding repetitive requests and more of your time doing new and interesting things that will further the business. Rundeck provides tools to define, build, deploy and manage automation.
-	                            </p>
-	                     </div>
-	                    </div>
-                    </li>
-                    <li>
-                    <a href="#">
-                    <span class="event-time">05:00 to 05:30pm</span>
-                    <span class="event-name">Awards Session</span>
-                    <br />
-                    <!-- <span class="event-location">List of Awards - TBD</span> -->
-                    </a>
-                    </li>
+                  </a>
+                <div id="combinedSession9" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> 
+                                "The reasonable man adapts himself doing mundane tasks and the unreasonable one delegates it." Come and join us to checkout our elegant tweaks in IBM WCS that would automate -<br>
+                      > Create  URL views in Struts
+                      > Create Commands that do Business Logic
+                      > Create XML Policies - Grand/Revoke User Privileges
+                      > Create DB Queries for Mapping Commands
+                              </p>
+                       </div>
+                      </div>
+                      <div id="combinedSession10" class="panel-collapse collapse">
+                       <div class="panel-body">
+                              <p> 
+                                Enjoy being the Hero. You've safely given Dev and QA teams access to self-service operations tasks (deployments, restarts, data management, etc). You've made collaboration with your Operations colleagues easier. You've improved everyone's visibility into Operations activity. Now you can spend less of your time fielding repetitive requests and more of your time doing new and interesting things that will further the business. Rundeck provides tools to define, build, deploy and manage automation.
+                              </p>
+                       </div>
+                      </div>
+                </li>
 
-                 
-                    <li>
-                    <a href="#">
-                    <span class="event-time">05:30 to 05:45pm</span>
-                    <span class="event-name">Thank You Note</span>
-                    <br />
-                    
-                    </a>
-                    </li>
-
-                    
-
-                    <li>
-                    <a href="#">
-                    <span class="event-time">06:00 to 07:00pm</span>
-                    <span class="event-name">Sirius Rythms</span>
-                    <br />
-                    <!-- <span class="event-location">Bar opens up in parallel</span> -->
-                    </a>
-                    </li>
-
-                    <li>
-                    <a href="#">
-                    <span class="event-time">07:00 to 09:00pm</span>
-                    <span class="event-name">Dinner</span>
-                    </a>
-                    </li>
-
-                    </ul>  
-
-
-                    </li>
+                  <li><a href="#"> <span class="event-time">05:00
+                        to 05:30pm</span> <span class="event-name">Awards Session</span> <br />
+                      <!-- <span class="event-location">List of Awards - TBD</span> -->
+                  </a></li>
 
 
 
-                    <li class="date">
-                    <h3>Nov 21</h3>
-                    <p>Schedule of Events</p>
-                    </li>
-                    <li class= "events cf">
-                    <ul class="events-detail">
-                    
-                    <li>
-                    <a href="#">
-                    <span class="event-time">08:00 to 09:00am</span>
-                    <span class="event-name">Breakfast</span>
-                    <br />
-                    <span class="event-location"></span>
-                    </a>
-                    </li>
-
-                     <li>
-                    <a href="#">
-                    <span class="event-time">09:00 to 12:15pm</span>
-                    <span class="event-name">Solution Space &#45; Tech Deep Dive Demos</span>
-                    <br />
-                    <span class="event-location"></span>
-                    </a>
-                    </li>
-
-                     <li>
-                    <a href="#">
-                    <span class="event-time">12:15 to 01:30pm</span>
-                    <span class="event-name">Lunch</span>
-                    <br />
-                    <span class="event-location"></span>
-                    </a>
-                    </li>
-
-                   
-
-                   
-                    
-                    </ul>  
+                  <li><a href="#"> <span class="event-time">05:30
+                        to 05:45pm</span> <span class="event-name">Thank You Note</span> <br />
 
 
-                    </li>
+                  </a></li>
+                  
+                  <li><a href="#"> <span class="event-time">06:00
+                        to 07:00pm</span> <span class="event-name">Sirius Rythms</span> <br />
+                      <!-- <span class="event-location">Bar opens up in parallel</span> -->
+                  </a></li>
 
-                    </ul>  
-                </div>
+                  <li><a href="#"> <span class="event-time">07:00
+                        to 09:00pm</span> <span class="event-name">Dinner</span>
+                  </a></li>
+
+                </ul>
+
+
+              </li>
+
+
+
+              <li class="date">
+                <h3>Nov 21</h3>
+                <p>Schedule of Events</p>
+              </li>
+              <li class="events cf">
+                <ul class="events-detail">
+
+                  <li><a href="#"> <span class="event-time">08:00
+                        to 09:00am</span> <span class="event-name">Breakfast</span> <!-- <br />
+                    <span class="event-location"></span> -->
+                  </a></li>
+
+                  <li><a href="#"> <span class="event-time">09:00
+                        to 12:15pm</span> <span class="event-name">Solution Space -
+                        Tech Deep Dive Demos</span> <br /> <span class="event-location"></span>
+                  </a></li>
+
+                  <li><a href="#"> <span class="event-time">12:15
+                        to 01:30pm</span> <span class="event-name">Lunch</span> <br /> <span
+                      class="event-location"></span>
+                  </a></li>
+
+
+
+
+
+                </ul>
+
+
+              </li>
+
+            </ul>
+          </div>
 
                 </div>
 
-	        </div>
+          </div>
 
 
-	     
-	    </div>
-	</div>
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/connectivity.js"></script>
-	<script type="text/javascript" src="js/intro.js"></script>
-	<script type="text/javascript" src="js/cd.js"></script>
+       
+      </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/connectivity.js"></script>
+  <script type="text/javascript" src="js/intro.js"></script>
+  <script type="text/javascript" src="js/cd.js"></script>
     <script src="js/codebird-js/codebird.js"></script>
     <script src="js/doT/doT.min.js"></script>
     <script src="js/moment/min/moment.min.js"></script>
     <script src="js/jquery.socialfeed.js"></script>
-	
+  
     <script type="text/javascript">
     var currContent  = 1;
     function goToMenu(id){
@@ -672,26 +722,26 @@ Cash prizes were distributed to the winners.
 
 
     }
-	$(document).ready(function(){
-		$('.social a').tooltip({
-		    placement: "right", 
-		    container: 'body'
-		  });
+  $(document).ready(function(){
+    $('.social a').tooltip({
+        placement: "right", 
+        container: 'body'
+      });
 
-		S.init();
-		
+    S.init();
+    
          timer1 =  setTimeout(
-	    function() {
+      function() {
 
             $(".skipButton").hide();
-	     
-	    //  $("#DOM").velocity("transition.perspectiveDownIn", { stagger: 250 });
-		    $("#DOM").velocity("fadeIn", { stagger: 250, duration:500 });
+       
+      //  $("#DOM").velocity("transition.perspectiveDownIn", { stagger: 250 });
+        $("#DOM").velocity("fadeIn", { stagger: 250, duration:500 });
      canvasDots();
 
           
 
-	    }, 12500);
+      }, 12500);
 
 
         var updateFeed = function() {
@@ -729,9 +779,10 @@ Cash prizes were distributed to the winners.
         };
 
         updateFeed();
-	    
-	});
-	
-	</script>
+      
+  });
+  
+  
+  </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 *{
-	padding: 0;
-	margin: 0;
-	font-family: 'Helvetica', serif ;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', serif ;
   font-weight: 100;
 
 }
@@ -39,16 +39,16 @@ canvas{
 }
 
 .contentWrap{
-	height: 100%;
+  height: 100%;
     background: transparent;
     padding: 0;
 }
 .imgWrap{
-	margin:30px;
+  margin:30px;
 }
 
 .skew-menu {
-	z-index: 4;
+  z-index: 4;
   text-align: center;
 }
 .skew-menu ul {
@@ -95,29 +95,29 @@ canvas{
     padding-bottom: 30px;
 }
 .fullPage{
-	height: 100%;
-	padding: 0px;
+  height: 100%;
+  padding: 0px;
 }
 .blockTitle{
-	font-size: 30px;
-	padding: 10px;
+  font-size: 30px;
+  padding: 10px;
 }
 .introBG{
-	background: rgba(3, 54, 73, 0.55);
+  background: rgba(3, 54, 73, 0.55);
     color: #fff;
     height: 70% !important;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .heightHalf{
-	    height: auto;
+      height: auto;
     padding-bottom: 25px;
     padding: 15px;
 }
 
 .ScheduleBG{
 
-	background: rgb(240,240,240);
+  background: rgb(240,240,240);
     color: #000;
     height: 100%;
     padding: 10px;
@@ -127,29 +127,28 @@ padding-left: 20px;
 }
 
 .bar1 {
-	
-	color: #fff;
+  
+  color: #fff;
 }
 .ContactBG{
-	padding-top: 15px;
-    padding-left: 18px;
+  padding-top: 15px;
+    padding-left: 15px;
         height: 30%;
     background-color: #046D8B;
 }
 .SocialBG{
-	position: absolute;
-	bottom: 0px;
-	height: 100px;
-	    margin-left: -10px;
-	width: 100%;
-	background: #fff;
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+      margin-left: -10px;
+  width: 100%;
+  background: #fff;
 }
 .hashtags{
-	text-align: center;
+  text-align: center;
 }
 .guests{
-/*   margin-top: 10px; */
-	text-align: center;
+  margin-top: 10px;
 }
 .social {
 background: #f3f3f3;
@@ -200,29 +199,29 @@ background: #f3f3f3;
 }
 ul li{list-style: none;}
 .titleSub1{
-	padding-left: 10px;
+  padding-left: 10px;
 }
 .countdownWrapper{
-	padding-top: 10px;
-	width: 100%;
-	font-size: 30px;
-	text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
 }
 .countdown{
-	font-size: 30px !important;
+  font-size: 30px !important;
   font-family: 'Harabara';
   letter-spacing: 2px;
   font-weight: 100;
   padding: 15px;
 }
 .rel{
-	position: relative;
+  position: relative;
 }
 p i {
-	width: 20px;
+  width: 20px;
 }
 .noPadding{
-	padding-top: 0;
+  padding-top: 0;
 }
 
 #people {
@@ -292,7 +291,7 @@ position: relative;
  background: #000;
 }
 .hideAB{
-	display: none;
+  display: none;
 }
 
 ul.main { 
@@ -352,7 +351,7 @@ h3 {padding: 0; margin: 0;}
 .event-location {
     font-size: .8em;
     color: #000;
-    margin-left: 127px;
+  /*  margin-left: 127px;*/
 }
 
 
@@ -379,22 +378,22 @@ h3 {padding: 0; margin: 0;}
   }
 }
 .calen{
-	    height: 90%;
+      height: 90%;
     width: 100%;
     /* padding-bottom: 26px; */
     overflow-y: auto;
     overflow-x: hidden;
 }
 .social li a i {
-	top: 7px;
+  top: 7px;
     position: relative;
 }
 .padTop {
-	padding-top: 5px;
+  padding-top: 5px;
   padding-left: 5px;
 }
 .padTopForTitle{
-	padding-top: 15px;
+  padding-top: 15px;
 }
 .socioIcons{
       position: absolute;
@@ -625,6 +624,22 @@ html, body {
     height: 90%;
     width: 100%;
 }
+
+.mobFix{
+  height: auto !important;
+}
+.timeline-event h4 i, .timeline-event p strong i  {
+  padding-right: 10px;
+}
+
+.timeline-event-thumbnail {
+font-size: 1em;
+
+}
+
+.panel-body .p{
+  font-size: 10px;
+}
 }
 .slogan{
       font-size: 14px;
@@ -669,7 +684,7 @@ html, body {
   display: block!important;
 }
 .padL{
-      padding-left: 128px;
+      padding-left: 0px;
 }
 .room{
       display: inline;
@@ -682,15 +697,14 @@ html, body {
 .atag i {
   padding-right: 13px;
 }
-/* @media screen and (max-width: 420px) {
-    .introBG {
-        height: 100% !important;
-    }
-    .ContactBG{
-    	display : none;
-    }
-} */
-
+.events-detail li:hover .adjusPadding
+{
+  color:#e9e9e9;
+}
+.adjusPadding{
+  color: #F0F0F0;
+    padding-left: 10px;
+}
 .events-detail a[aria-expanded="true"] {
     color: #337AB7!important;
 }

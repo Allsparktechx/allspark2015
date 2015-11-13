@@ -1,17 +1,17 @@
 
 
 var S = {
-  init: function() {
+  init: function(browser) {
     var action = window.location.href,
       i = action.indexOf('?a=');
 
     S.Drawing.init('.connectivityBG');
     document.body.classList.add('body--ready');
 
-    if (i !== -1) {
-      S.UI.simulate(decodeURI(action).substring(i + 3));
+    if (browser=="ff") {
+    	S.UI.simulate('AllSpark|');
     } else {
-      S.UI.simulate('Celebration|of|Technology|&|Innovation|AllSpark|');
+        S.UI.simulate('Celebration|of|Technology|&|Innovation|AllSpark|');
     }
 
     S.Drawing.loop(function() {

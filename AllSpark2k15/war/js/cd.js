@@ -1,4 +1,4 @@
-CountDownTimer('11/20/2015 9:00 PM', 'countdown'); //Month.Day
+CountDownTimer('11/20/2015 9:00 AM', 'countdown'); //Month.Day
 
     function CountDownTimer(dt, id)
     {
@@ -16,7 +16,7 @@ CountDownTimer('11/20/2015 9:00 PM', 'countdown'); //Month.Day
             if (distance < 0) {
 
                 clearInterval(timer);
-                document.getElementById(id).innerHTML = 'EXPIRED!';
+                document.getElementById(id).innerHTML = 'SPARKING NOW!';
 
                 return;
             }

@@ -70,7 +70,7 @@ S.Drawing = (function() {
     drawCircle: function(p, c) {
       context.fillStyle = c.render();
       context.beginPath();
-      context.arc(p.x, p.y, p.z, 0, 2 * Math.PI, true);
+      context.arc(p.x, p.y, 4, 0, 2 * Math.PI, true);
       context.closePath();
       context.fill();
     }
@@ -379,7 +379,7 @@ S.Dot.prototype = {
 }
 
 S.ShapeBuilder = (function() {
-  var gap = 13,
+    var gap = 10,
     shapeCanvas = document.createElement('canvas'),
     shapeContext = shapeCanvas.getContext('2d'),
     fontSize = 500,

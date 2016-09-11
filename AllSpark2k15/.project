@@ -3,6 +3,7 @@
 	<name>AllSpark2k15</name>
 	<comment></comment>
 	<projects>
+		<project>AllSpark</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
